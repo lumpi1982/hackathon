@@ -1,0 +1,11 @@
+2014-10-14 10:49:45,788 [Worker-0] INFO  org.eclipse.jetty.server.Server - jetty-8.1.14.v20131031
+2014-10-14 10:49:45,905 [Worker-0] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:46843
+2014-10-14 11:02:38,270 [main] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/jrebel,null}
+2014-10-14 11:02:56,528 [Worker-3] INFO  org.eclipse.jetty.server.Server - jetty-8.1.14.v20131031
+2014-10-14 11:02:56,616 [Worker-3] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:46956
+2014-10-14 14:02:12,522 [main] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/jrebel,null}
+2014-10-14 14:19:01,598 [Worker-3] INFO  org.eclipse.jetty.server.Server - jetty-8.1.14.v20131031
+2014-10-14 14:19:01,671 [Worker-3] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:38629
+2014-10-14 15:39:17,504 [main] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/jrebel,null}
+2014-10-14 15:40:11,010 [Worker-1] INFO  org.eclipse.jetty.server.Server - jetty-8.1.14.v20131031
+2014-10-14 15:40:11,234 [Worker-1] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:54313

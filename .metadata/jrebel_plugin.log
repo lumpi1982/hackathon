@@ -1,0 +1,135 @@
+2014-10-14 10:49:45.603 [Worker-0] DEBUG AgentProvider - setInitializationData. isBetafalse; location jrebel/
+2014-10-14 10:49:45.609 [Worker-0] DEBUG AgentProvider - setInitializationData. isBetatrue; location jr6/jrebel/
+2014-10-14 10:49:45.633 [Worker-0] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-10-14 10:49:45.905 [Worker-0] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:46843/jrebel/notifications
+2014-10-14 10:49:45.919 [Worker-0] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-14 10:49:45.942 [Worker-0] DEBUG o.z.exec.ProcessExecutor - Executing [/data/java/64/jdk/jdk1.7.0_17/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/developer/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /data/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-10-14 10:49:45.966 [Worker-0] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@411b6178
+2014-10-14 10:49:46.164 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-14 10:49:46.169 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/data/java/64/jdk/jdk1.7.0_17/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/developer/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /data/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-10-14 10:49:46.190 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@227c297a
+2014-10-14 10:49:46.722 [Worker-0] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@411b6178 stopped with exit code 2
+2014-10-14 10:49:46.771 [Worker-0] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-14 10:49:46.781 [Worker-0] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-14 10:49:46.806 [Thread-24] DEBUG o.z.exec.ProcessExecutor - Executing [/data/java/64/jdk/jdk1.7.0_17/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/developer/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /data/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-10-14 10:49:46.813 [Thread-24] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@4f66fd33
+2014-10-14 10:49:46.958 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@227c297a stopped with exit code 2
+2014-10-14 10:49:46.967 [JRebel License Expiration Notification Checker] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-14 10:49:47.377 [Thread-24] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@4f66fd33 stopped with exit code 2
+2014-10-14 10:49:47.381 [Thread-24] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-14 11:02:56.350 [Worker-3] DEBUG AgentProvider - setInitializationData. isBetafalse; location jrebel/
+2014-10-14 11:02:56.353 [Worker-3] DEBUG AgentProvider - setInitializationData. isBetatrue; location jr6/jrebel/
+2014-10-14 11:02:56.374 [Worker-3] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-10-14 11:02:56.617 [Worker-3] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:46956/jrebel/notifications
+2014-10-14 11:02:56.633 [Worker-3] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-14 11:02:56.646 [Worker-3] DEBUG o.z.exec.ProcessExecutor - Executing [/data/java/64/jdk/jdk1.7.0_17/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/developer/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /data/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-10-14 11:02:56.659 [Worker-3] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@1e4628e3
+2014-10-14 11:02:57.099 [Worker-3] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@1e4628e3 stopped with exit code 2
+2014-10-14 11:02:57.122 [Worker-3] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-14 11:02:57.128 [Worker-3] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-14 11:02:57.129 [Thread-23] DEBUG o.z.exec.ProcessExecutor - Executing [/data/java/64/jdk/jdk1.7.0_17/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/developer/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /data/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-10-14 11:02:57.136 [Thread-23] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@4d170f72
+2014-10-14 11:02:57.508 [Thread-23] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@4d170f72 stopped with exit code 2
+2014-10-14 11:02:57.513 [Thread-23] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-14 14:19:01.396 [Worker-3] DEBUG AgentProvider - setInitializationData. isBetafalse; location jrebel/
+2014-10-14 14:19:01.411 [Worker-3] DEBUG AgentProvider - setInitializationData. isBetatrue; location jr6/jrebel/
+2014-10-14 14:19:01.444 [Worker-3] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-10-14 14:19:01.672 [Worker-3] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:38629/jrebel/notifications
+2014-10-14 14:19:01.688 [Worker-3] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-14 14:19:01.706 [Worker-3] DEBUG o.z.exec.ProcessExecutor - Executing [/data/java/64/jdk/jdk1.7.0_17/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/developer/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /data/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-10-14 14:19:01.717 [Worker-3] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@2a166d9d
+2014-10-14 14:19:02.868 [Worker-3] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@2a166d9d stopped with exit code 2
+2014-10-14 14:19:02.896 [Worker-3] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-14 14:19:02.905 [Worker-3] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-14 14:19:02.907 [Thread-24] DEBUG o.z.exec.ProcessExecutor - Executing [/data/java/64/jdk/jdk1.7.0_17/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/developer/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /data/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-10-14 14:19:02.911 [Thread-24] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@5ae7d6a1
+2014-10-14 14:19:03.366 [Thread-24] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@5ae7d6a1 stopped with exit code 2
+2014-10-14 14:19:03.372 [Thread-24] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-14 15:40:10.693 [Worker-1] DEBUG AgentProvider - setInitializationData. isBetafalse; location jrebel/
+2014-10-14 15:40:10.701 [Worker-1] DEBUG AgentProvider - setInitializationData. isBetatrue; location jr6/jrebel/
+2014-10-14 15:40:10.742 [Worker-1] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-10-14 15:40:11.234 [Worker-1] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:54313/jrebel/notifications
+2014-10-14 15:40:11.287 [Worker-1] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-14 15:40:11.317 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Executing [/data/java/64/jdk/jdk1.7.0_17/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/developer/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /data/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-10-14 15:40:11.348 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@31564ee6
+2014-10-14 15:40:11.861 [Worker-1] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@31564ee6 stopped with exit code 2
+2014-10-14 15:40:11.953 [Worker-1] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-14 15:40:11.960 [Worker-1] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-14 15:40:11.982 [Thread-26] DEBUG o.z.exec.ProcessExecutor - Executing [/data/java/64/jdk/jdk1.7.0_17/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/developer/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /data/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-10-14 15:40:12.002 [Thread-26] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@4a9188b1
+2014-10-14 15:40:12.597 [Thread-26] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@4a9188b1 stopped with exit code 2
+2014-10-14 15:40:12.603 [Thread-26] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-14 15:45:16.578 [Worker-2] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-prototype-mongo-demo.js
+2014-10-14 15:45:16.578 [Worker-2] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-prototype/mongo-demo.js
+2014-10-14 15:46:18.220 [Worker-2] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-prototype-mongo-demo.js
+2014-10-14 15:46:18.220 [Worker-2] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-prototype/mongo-demo.js
+2014-10-14 15:46:46.344 [Worker-7] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-prototype-mongo-demo.js
+2014-10-14 15:46:46.344 [Worker-7] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-prototype/mongo-demo.js
+2014-10-14 15:49:50.297 [Worker-1] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for package.json (waiting for build...)
+2014-10-14 15:49:50.297 [Worker-1] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/package.json
+entry: key_goal=install
+entry: org.eclipse.debug.uilaunching_config_handle=<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="package.json"/>
+
+2014-10-14 15:49:52.228 [Worker-1] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for package.json
+2014-10-14 15:49:52.228 [Worker-1] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/package.json
+entry: key_goal=install
+2014-10-14 15:50:36.741 [Worker-11] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongo-demo.js
+2014-10-14 15:50:36.741 [Worker-11] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongo-demo.js
+2014-10-14 15:50:45.939 [Worker-11] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongo-demo.js
+2014-10-14 15:50:45.939 [Worker-11] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongo-demo.js
+2014-10-14 15:50:51.514 [Worker-11] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongo-demo.js
+2014-10-14 15:50:51.514 [Worker-11] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongo-demo.js
+2014-10-14 15:51:35.121 [Worker-8] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongo-demo.js
+2014-10-14 15:51:35.122 [Worker-8] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongo-demo.js
+2014-10-14 15:57:23.512 [Worker-9] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongo-demo.js
+2014-10-14 15:57:23.512 [Worker-9] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongo-demo.js
+2014-10-14 15:58:36.981 [Worker-6] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongo-demo.js
+2014-10-14 15:58:36.981 [Worker-6] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongo-demo.js

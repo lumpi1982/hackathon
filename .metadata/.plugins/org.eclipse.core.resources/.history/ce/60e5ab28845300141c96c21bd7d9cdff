@@ -1,0 +1,20 @@
+var oracle = require('oracle');
+
+var connectData = {
+    hostname: "svc-rdh-it-ora1-vip.intern.paysafecard.at",
+    port: 1521,
+    database: "it_rw_client.intern.paysafecard.at", // System ID (SID)
+    user: "dbstehub",
+    password: "DB,He*ro.13370"
+}
+
+oracle.connect(connectData, function(err, connection) {
+    if (err) { console.log("Error connecting to db:", err); return; }
+
+    connection.execute("SELECT systimestamp FROM dual", [], function(err, results) {
+        if (err) { console.log("Error executing query:", err); return; }
+
+        console.log(results);
+        connection.close(); // call only when query is finished executing
+    });
+});

@@ -1,0 +1,31 @@
+var express = require('express');
+var app = express();
+// This make a uri end point for the REST call
+// http://myhost/emp will return the data
+app.get('/cardinfo', function(req, res){
+  console.log('Received request: serialno=', req.query['serialno']);
+  fetchSerialNoInfo(req,res);
+  }
+);
+
+var databaseUrl = "mongouser:Password1@localhost/mydb"; // "username:password@example.com/mydb"
+var collections = ["users", "reports"]
+var db = require("mongojs").connect(databaseUrl, collections);
+
+ 
+// function registered in the /emp declaration
+function fetchSerialNoInfo(req,res){
+  var query = "SELECT BALANCE, CURRENCY_ID FROM PSCAPPL.CARD WHERE SERIAL_NO=" + req.query['serialno'];
+  dbConnection.execute(query, [], function(err, results) {
+  
+    if (err) { console.log("Error executing query:", err); return; }
+      console.log('Retrieved card information: ', JSON.stringify(results));
+
+      // use the JSON function to format the results and print
+      res.write(JSON.stringify(results));
+      res.end();
+    });
+}
+ 
+// listen on port 8000
+app.listen(8000);
