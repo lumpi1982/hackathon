@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<body ng-init="users=[{name: 'John doe'}, {name: 'Foo Bar'}]">
+Name: <input type="text" ng-model="name" />
+{{ name }}
+
+
+<!-- ng-repeat for iterating over array -> user angular JS FILTER  -->
+<ul>
+<li ng-repeat="user in users">{{ user.name }}</li>
+</ul>
+</body>
+
+</html>

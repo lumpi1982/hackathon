@@ -178,3 +178,18 @@ entry: key_file_path=/hackathon-example/mongoose-demo.js
 2014-10-15 10:28:29.853 [Worker-46] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
 2014-10-15 10:28:29.853 [Worker-46] DEBUG RebelArgsFixingLaunchListener - 
 entry: key_file_path=/hackathon-example/mongoose-demo.js
+2014-10-15 10:40:11.038 [Worker-51] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 10:40:11.038 [Worker-51] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js
+2014-10-15 13:48:12.307 [Worker-116] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 13:48:12.307 [Worker-116] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js
+2014-10-15 13:48:21.080 [Worker-55] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 13:48:21.080 [Worker-55] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js
+2014-10-15 13:48:57.936 [Worker-111] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 13:48:57.936 [Worker-111] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js
+2014-10-15 14:16:55.396 [Worker-130] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 14:16:55.397 [Worker-130] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js
