@@ -133,3 +133,48 @@ entry: key_file_path=/hackathon-example/mongo-demo.js
 2014-10-14 15:58:36.981 [Worker-6] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongo-demo.js
 2014-10-14 15:58:36.981 [Worker-6] DEBUG RebelArgsFixingLaunchListener - 
 entry: key_file_path=/hackathon-example/mongo-demo.js
+2014-10-15 10:08:54.515 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-15 10:08:54.515 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/data/java/64/jdk/jdk1.7.0_17/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/developer/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /data/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.6.0.SR1-201407141444/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-10-15 10:08:54.526 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@75a699b0
+2014-10-15 10:08:54.936 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@75a699b0 stopped with exit code 2
+2014-10-15 10:08:54.941 [JRebel License Expiration Notification Checker] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-15 10:11:39.909 [Worker-44] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 10:11:39.909 [Worker-44] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js
+2014-10-15 10:12:47.863 [Worker-32] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 10:12:47.863 [Worker-32] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js
+2014-10-15 10:12:53.248 [Worker-42] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongo-demo.js
+2014-10-15 10:12:53.248 [Worker-42] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongojs-demo.js
+2014-10-15 10:14:40.130 [Worker-43] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongo-demo.js
+2014-10-15 10:14:40.130 [Worker-43] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongojs-demo.js
+2014-10-15 10:14:43.334 [Worker-44] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 10:14:43.334 [Worker-44] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js
+2014-10-15 10:15:08.899 [Worker-42] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongo-demo.js
+2014-10-15 10:15:08.899 [Worker-42] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongojs-demo.js
+2014-10-15 10:18:12.859 [Worker-41] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongo-demo.js
+2014-10-15 10:18:12.859 [Worker-41] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongojs-demo.js
+2014-10-15 10:18:19.032 [Worker-46] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 10:18:19.032 [Worker-46] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js
+2014-10-15 10:19:17.632 [Worker-45] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 10:19:17.632 [Worker-45] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js
+2014-10-15 10:20:03.561 [Worker-46] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 10:20:03.561 [Worker-46] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js
+2014-10-15 10:27:21.809 [Worker-53] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 10:27:21.809 [Worker-53] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js
+2014-10-15 10:28:29.853 [Worker-46] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for hackathon-example-mongoose-demo.js
+2014-10-15 10:28:29.853 [Worker-46] DEBUG RebelArgsFixingLaunchListener - 
+entry: key_file_path=/hackathon-example/mongoose-demo.js

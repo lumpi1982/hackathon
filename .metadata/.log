@@ -698,3 +698,6 @@ org.eclipse.jgit.errors.TransportException: Nothing to push.
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY org.zeroturnaround.eclipse 4 0 2014-10-15 10:08:54.941
+!MESSAGE Got Exception: null
