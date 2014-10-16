@@ -1,0 +1,37 @@
+extends layout
+block head-scripts
+	script(src='/javascripts/signup.js')
+block content
+	.container-fluid(ng-controller='SignupController')
+		.row
+			.col-md-2
+			.col-md-8
+				h1 Sign Up
+				p Welcome to #{title}
+				form.form-horizontal(name='loginForm')
+						.form-group
+							
+							label.col-md-3.control-label Email
+							.col-md-6
+								input.form-control(name='emailField' type='email' ng-model='email' placeholder='Email' required)
+							.col-md-3(ng-show='loginForm.emailField.$dirty')
+								span.fa.fa-bolt(ng-hide='loginForm.emailField.$valid')
+								span.fa.fa-check-square-o(ng-show='loginForm.emailField.$valid')
+						.form-group
+							label.col-md-3.control-label Password
+							.col-md-6
+								input.form-control(name='passwordField' type='password' ng-model='password' placeholder='Password' required)
+							.col-md-3(ng-show='loginForm.passwordField.$dirty')
+								span.fa.fa-bolt(ng-hide='loginForm.passwordField.$valid')
+								span.fa.fa-check-square-o(ng-show='loginForm.passwordField.$valid')
+						.form-group
+							.col-md-3
+							.col-md-6
+								input.btn.btn-lg.btn-primary.btn-block(type="button", value="Submit", ng-click='storeUser()' ng-disabled='loginForm.$invalid')
+							.col-md-3
+			.col-md-2
+		.row
+			.col-md-12
+				ul#users(ng-hide='users.length==0')
+					li(ng-repeat='user in users track by $index ') {{user}}
+			
